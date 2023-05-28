@@ -49,6 +49,6 @@ route::get('OrdersApp',[WindowsController::class,'OrdersApp']);
 route::get('categoriesApp',[WindowsController::class,'categoriesApp']);
 
 Auth::routes();
-
+//test
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
